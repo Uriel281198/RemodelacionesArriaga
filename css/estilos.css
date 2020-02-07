@@ -13,12 +13,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1,h2,h3,h4,h5,h6 {
     color: #1d273b;
     font-weight: 300;
 }
@@ -30,7 +25,6 @@ h6 {
     overflow: hidden;
 }
 
-
 .contenedor1 {
     width: 90%;
     max-width: 1000px;
@@ -38,19 +32,17 @@ h6 {
     overflow: hidden;
     padding: 60px 0;
 }
-
-
 h1 {
     font-size: 50px;
 }
-
-
 /* Header */
 header::before {
     content: "";
     display: block;
     margin-bottom: 80px;
+    
 }
+
 
 
 nav {
@@ -228,7 +220,7 @@ nav {
 }
 
 
-.contenido-header a {
+.contenido-header a, .contacto input[type="button"] {
     margin: 28px 0 0 0;
     width: 180px;
     display: inline-block;
@@ -492,7 +484,7 @@ nav {
     position: absolute;
     bottom: 0;
     left: 0;
-    background:rgba(0, 118, 192, 0.781) ;
+    background:rgba(34, 177, 115, .8);
     width: 100%;
     height: 0;
     overflow: hidden;
@@ -513,6 +505,39 @@ nav {
 .imagen:hover .overlay{
     height:100%;
     cursor: pointer;
+}
+.contacto h3 {
+    font-size: 24px;
+    background: #f2f2f2;
+    width: 350px;
+    border-radius: 6px;
+    padding: 10px 0 10px 15px;
+    margin-bottom: 10px;
+}
+.contacto form{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 77%;
+    margin:auto;
+}
+
+input[type="text"],input[type="email"]{
+    width: 49%;
+    margin-bottom: 15px;
+    padding: 18px 0;
+    border: 0;
+    border-bottom:1px solid var(--primary-color);
+    font-size: 17px;
+}
+
+textarea{
+    padding: 18px 0;
+    border:0;
+    border-bottom: 1px solid var(--primary-color);
+    font-size: 17px;
+    margin-bottom: 40px;
+
 }
 
 @media screen and (max-width:1000px){
@@ -721,11 +746,11 @@ footer {
 
     .enlaces-header {
         position: fixed;
-        background: #667db6;
+        background: var(--primary-color);
         /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
+        /*background: -webkit-linear-gradient(to right, white,var(--primary-color), var(--primary-color), white);
         /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
+        /*background: linear-gradient(to right, white, var(--primary-color),var(--primary-color), white);
         /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         top: 0;
         right: 0;
