@@ -506,9 +506,13 @@ nav {
     height:100%;
     cursor: pointer;
 }
+
+.contacto{
+    margin-bottom: 50px;
+}
 .contacto h3 {
+    margin-top: 20px;
     font-size: 24px;
-    background: #f2f2f2;
     width: 350px;
     border-radius: 6px;
     padding: 10px 0 10px 15px;
