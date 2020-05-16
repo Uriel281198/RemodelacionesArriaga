@@ -174,7 +174,7 @@ header .contenido-header h1 {
     font-size: 35px;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 270px) {
   header {
     background-color: red;
   }
