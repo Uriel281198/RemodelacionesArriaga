@@ -31,14 +31,14 @@ class INTERFAZMAPS {
     monstraPINES(datos){
 
         this.markers.clearLayers();
-        var greenIcon = L.icon({
-            iconUrl: '../img/martillo.svg',                    
-            iconSize:     [38, 95], // size of the icon
-            shadowSize:   [50, 64], // size of the shadow
-            iconAnchor:   [22, 94], // point of the icon which will correspond to marker's location
-            shadowAnchor: [4, 62],  // the same for the shadow
-            popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
-        });         
+        // var greenIcon = L.icon({
+        //     iconUrl: '../img/martillo.svg',                    
+        //     iconSize:     [38, 95], // size of the icon
+        //     shadowSize:   [50, 64], // size of the shadow
+        //     iconAnchor:   [22, 94], // point of the icon which will correspond to marker's location
+        //     shadowAnchor: [4, 62],  // the same for the shadow
+        //     popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
+        // });         
         datos.forEach((element,index) => {            
          
             const {lat,long,img} = element;
@@ -54,7 +54,7 @@ class INTERFAZMAPS {
             const marker = new L.marker([
                 parseFloat(lat),
                 parseFloat(long)
-            ],{icon:greenIcon}).bindPopup(opcionesPopup).openPopup();
+            ]).bindPopup(opcionesPopup).openPopup();
          
             this.markers.addLayer(marker)
             
