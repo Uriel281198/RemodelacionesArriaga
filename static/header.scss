@@ -164,7 +164,56 @@ header {
         }
     }
 
+    @media screen and (max-width:375px){
+        .contenido-header {
+            
+            .textos-header{
+                margin: 0;
+                margin-top: -50px;
+            }
+            h1{
+                font-size: 19px;   
+                margin: 0;             
+            }
+
+            p{
+                font-size: 35px;
+            }
+        
+        }
+    }
+
+    @media screen and (max-width:424px){
+        
+        .contenido-header {
+            .textos-header{
+                margin: 0;
+                margin-top: -50px;
+            }
+            h1{
+                font-size: 22px;   
+                margin: 0;             
+            }
+
+            p{
+                font-size: 35px;
+            }
+        
+        }
+    }
+
+    @media screen and (max-width:600px){
+        .contenido-header {
+            h1{
+                font-size: 28px;                
+            }
+        
+        }
+    }
+
     @media screen and (max-width:800px) {
+        
+
         
         .contenido-header {
             flex-direction: column;
@@ -189,69 +238,9 @@ header {
         }
     }
 
-    @media screen and (max-width:600px){
-        .contenido-header {
-            h1{
-                font-size: 28px;                
-            }
-        
-        }
-    }
-    @media screen and (max-width:424px){
-        background-color: red;
-        .contenido-header {
-            .textos-header{
-                margin: 0;
-                margin-top: -50px;
-            }
-            h1{
-                font-size: 22px;   
-                margin: 0;             
-            }
-
-            p{
-                font-size: 35px;
-            }
-        
-        }
-    }
-    @media screen and (max-width:375px){
-        .contenido-header {
-
-            .textos-header{
-                margin: 0;
-                margin-top: -50px;
-            }
-            h1{
-                font-size: 19px;   
-                margin: 0;             
-            }
-
-            p{
-                font-size: 35px;
-            }
-        
-        }
-    }
-    @media screen and (max-width:270px){
-        background-color: red;
-        .contenido-header {
-
-            .textos-header{
-                margin: 0;
-                margin-top: -50px;
-            }
-            h1{
-                font-size: 18px;   
-                margin: 0;             
-            }
-
-            p{
-                font-size: 35px;
-            }
-        
-        }
-    }
+    
+    
+ 
 
 
 }
