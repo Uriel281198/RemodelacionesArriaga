@@ -34,7 +34,7 @@ class INTERFAZMAPS {
 
         datos.forEach((element,index) => {            
          var greenIcon = L.icon({
-            iconUrl: '../img/martillo.svg',                    
+            iconUrl: './martillo.svg',                    
             iconSize:     [38, 95], // size of the icon
             shadowSize:   [50, 64], // size of the shadow
             iconAnchor:   [22, 94], // point of the icon which will correspond to marker's location
