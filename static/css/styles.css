@@ -161,6 +161,19 @@ header .contenido-header h1 {
     font-size: 28px;
   }
 }
+@media screen and (max-width: 500px) {
+  header .contenido-header .textos-header {
+    margin: 0;
+    margin-top: -50px;
+  }
+  header .contenido-header h1 {
+    font-size: 22px;
+    margin: 0;
+  }
+  header .contenido-header p {
+    font-size: 35px;
+  }
+}
 @media screen and (max-width: 375px) {
   header .contenido-header .textos-header {
     margin: 0;
