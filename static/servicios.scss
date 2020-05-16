@@ -1,0 +1,57 @@
+
+.servicios {
+    
+    background: #f2f2f2;
+    padding: 100px;
+
+    .titulo {
+        text-align: center;
+        font-size: 40px;
+        font-weight: 400;
+        color: #5D6678;
+        margin-top: -50px;
+
+
+    }
+
+    .contenedor-articulo {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 60px;
+        justify-content: space-around;
+
+        .articulo {
+            width: 25%;
+            background: #fff;
+            margin-bottom: 30px;
+            border-radius: 10px;
+            padding: 45px 30px 60px 30px;
+            text-align: center;
+
+            img {
+                width: 100px;
+            }
+
+            &:hover {
+                box-shadow: 0 4px 10px rgba(17, 29, 48, .26);
+            }
+
+            &>h3 {
+                font-size: 24px;
+                margin-top: 30px;
+            }
+
+            &>p {
+                font-weight: 100;
+                color: #5D6678;
+                margin-top: 15px;
+                font-weight: 400;
+                padding-bottom: 20px;
+                text-align: justify;
+            }
+
+        }
+    }
+
+
+}

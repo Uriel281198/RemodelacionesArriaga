@@ -1,0 +1,100 @@
+    <script 
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAj8V-QnZeLLLRkAcahbV4QMQ7q9gONEOU">
+    </script>    
+    
+    <script type="module">
+        var style = [
+                    {
+                        "featureType": "all",
+                        "stylers": [
+                            {
+                                "saturation": 0
+                            },
+                            {
+                                "hue": "#e7ecf0"
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "road",
+                        "stylers": [
+                            {
+                                "saturation": -70
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "transit",
+                        "stylers": [
+                            {
+                                "visibility": "off"
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "poi",
+                        "stylers": [
+                            {
+                                "visibility": "off"
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "water",
+                        "stylers": [
+                            {
+                                "visibility": "simplified"
+                            },
+                            {
+                                "saturation": -60
+                            }
+                        ]
+                    }
+                ]
+      
+        const $map = document.querySelector("#map");
+        const $show = document.querySelector("#show");
+
+        const places = [
+            {nombre:"polanco",latitud:19.435952,longitud:-99.195526},
+            {nombre:"santafe",latitud:19.383915,longitud:-99.231136}
+        ];
+
+        
+        const map = new window.google.maps.Map($map, {
+                center: {
+                    lat: 19.4978,
+                    lng: -99.1269
+                },
+                zoom: 11,
+                styles: style
+            });
+            var image = {
+                url: "img/martillo.svg", // url
+                scaledSize: new google.maps.Size(50, 50), // scaled size
+          
+            };
+
+            const popup = new window.google.maps.InfoWindow();
+
+            places.forEach((place) => {
+                const marker  = new window.google.maps.Marker({
+                    position: {
+                        lat: place.latitud,
+                        lng: place.longitud
+                    },
+                    map,
+                    icon: image
+                })
+                $show.addEventListener("click",()=>{
+                popup.setContent('Workk ')
+                    popup.open(map,marker)
+            })
+               
+                marker.addListener('click',()=>{
+                    popup.setContent('Workk ')
+                    popup.open(map,marker)
+                })
+            })
+
+    </script>

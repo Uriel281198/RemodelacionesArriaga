@@ -1,0 +1,207 @@
+@import './header.scss';
+@import './servicios.scss';
+@import './galeria.scss';
+@import './footer.scss';
+:root {
+    --primary-color: #22b173;
+}
+html{
+    scroll-behavior: smooth;
+}
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #1d273b;
+    font-weight: 300;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.contenedor1 {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+    padding: 60px 0;
+}
+
+
+/*MENSAJE*/
+.mensaje {
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    img {
+        width: 350px;
+    }
+
+    .textos-questions {
+        margin: 0 0 0 30px;
+
+        p {
+            font-weight: 100;
+            margin-top: 14px;
+            color: #5D6678;
+        }
+
+        a {
+            margin: 28px 0 0 0;
+            width: 130px;
+            display: inline-block;
+            background: #1FDE82;
+            text-align: center;
+            color: #fff;
+            padding: 12px 0;
+            text-decoration: none;
+            font-weight: 400;
+            text-transform: uppercase;
+            font-size: 14px;
+            border-radius: 5px;
+            box-shadow: 0 8px 32px rgba(31, 222, 130, .46);
+
+        }
+    }
+
+}
+
+.maps-section {
+    height: 600px;
+    background: #f2f2f2;
+
+    .titulo {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .buttons {
+        display: flex;
+        justify-content: space-evenly;
+
+        #show {
+            margin-bottom: 30px;
+            background-color: var(--primary-color);
+            padding: 10px;
+            color: white;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+    }
+
+    #mapaid {
+        height: 350px;
+        border-radius: 40px;
+        z-index: 99;
+    }
+
+    .imgnose {
+        width: 100px;
+
+    }
+}
+
+
+
+
+.contacto {
+
+    background: #f2f2f2;
+    height: 600px;
+
+    h3 {
+
+        text-align: center;
+        font-size: 40px;
+        font-weight: 400;
+        color: #5D6678;
+
+    }
+
+    .contenedor-contanto {
+        display: flex;
+        justify-content: space-between;
+
+
+        form {
+            padding: 10px;
+            background-color:white;
+            border-radius: 20px;
+            box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, .30);
+            width: 50%;
+
+        }
+
+        .mensaje {
+
+            width: 50%;
+            height: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 50px;
+
+            p {
+                text-align: justify;
+            }
+
+        }
+
+        label {
+            margin-left: 20px;
+            display: block;
+            margin-bottom: 2px;
+            text-decoration: none;
+            color: #5D6678;
+            font-weight: 300;
+        }
+
+        .input-style {
+
+            padding: 12px;
+            margin: 20px;
+            width: 80%;
+            border: none;
+            border: 1px solid var(--primary-color);
+            border-radius: 15px;
+
+            &:focus {
+                outline: none !important;
+
+            }
+        }
+
+        button {
+            margin-left: 20px;
+            width: 130px;
+            background: #1FDE82;
+            text-align: center;
+            color: #fff;
+            padding: 12px 0;
+            border: none;
+            font-weight: 400;
+            text-transform: uppercase;
+            font-size: 14px;
+            border-radius: 5px;
+            box-shadow: 0 8px 32px rgba(31, 222, 130, .46);
+
+        }
+    }
+}
+
+
