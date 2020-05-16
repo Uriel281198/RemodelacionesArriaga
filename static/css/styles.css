@@ -175,6 +175,9 @@ header .contenido-header h1 {
   }
 }
 @media screen and (max-width: 320px) {
+  header {
+    background-color: red;
+  }
   header .contenido-header .textos-header {
     margin: 0;
     margin-top: -50px;
