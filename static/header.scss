@@ -154,7 +154,6 @@ header {
              
     }
     
-
     @keyframes animat {
         0% {
             transform: scale(0.2);
@@ -164,57 +163,8 @@ header {
         }
     }
 
-    @media screen and (max-width:375px){
-        .contenido-header {
-            
-            .textos-header{
-                margin: 0;
-                margin-top: -50px;
-            }
-            h1{
-                font-size: 19px;   
-                margin: 0;             
-            }
-
-            p{
-                font-size: 35px;
-            }
-        
-        }
-    }
-
-    @media screen and (max-width:424px){
-        
-        .contenido-header {
-            .textos-header{
-                margin: 0;
-                margin-top: -50px;
-            }
-            h1{
-                font-size: 22px;   
-                margin: 0;             
-            }
-
-            p{
-                font-size: 35px;
-            }
-        
-        }
-    }
-
-    @media screen and (max-width:600px){
-        .contenido-header {
-            h1{
-                font-size: 28px;                
-            }
-        
-        }
-    }
 
     @media screen and (max-width:800px) {
-        
-
-        
         .contenido-header {
             flex-direction: column;
             justify-content: space-evenly;
@@ -238,6 +188,62 @@ header {
         }
     }
 
+    @media screen and (max-width:600px){
+        .contenido-header {
+            h1{
+                font-size: 22px;            
+            }
+        
+        }
+    }
+
+    @media screen and (max-width:424px){
+        
+        .contenido-header {
+            .textos-header{
+                margin: 0;
+                margin-top: -50px;
+            }
+            h1{
+                font-size: 20px;   
+                margin: 0;             
+            }
+
+            p{
+                font-size: 35px;
+            }
+        
+        }
+    }
+
+    @media screen and (max-width:375px){
+        .contenido-header {
+            
+            .textos-header{
+                margin: 0;
+                margin-top: -50px;
+            }
+            h1{
+                font-size: 21px;   
+                margin: 0;             
+            }
+
+            p{
+                font-size: 35px;
+            }
+        
+            &>img {
+                margin-top: -100px;
+                width: 300px;
+            }
+        }
+    }
+
+ 
+
+  
+
+   
     
     
  

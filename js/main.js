@@ -43,9 +43,5 @@ enlaces.forEach((x,i)=>{
 
 console.log(enlaces)
 
-const tamano = document.querySelector('.tamano');
-
-tamano.innerHTML = window.screen.width
-
 /*Mapas*/ 
 
