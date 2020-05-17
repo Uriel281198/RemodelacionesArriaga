@@ -188,56 +188,82 @@ header {
         }
     }
 
-    @media screen and (max-width:600px){
-        .contenido-header {
-            h1{
-                font-size: 22px;            
-            }
+    // @media screen and (max-width:600px){
+    //     .contenido-header {
+    //         h1{
+    //             font-size: 22px;            
+    //         }
         
-        }
-    }
+    //     }
+    // }
 
-    @media screen and (max-width:424px){
+    // @media screen and (max-width:424px){
         
-        .contenido-header {
-            .textos-header{
-                margin: 0;
-                margin-top: -50px;
-            }
-            h1{
-                font-size: 20px;   
-                margin: 0;             
-            }
+    //     .contenido-header {
+    //         .textos-header{
+    //             margin: 0;
+    //             margin-top: -50px;
+    //         }
+    //         h1{
+    //             font-size: 20px;   
+    //             margin: 0;             
+    //         }
 
-            p{
-                font-size: 35px;
-            }
+    //         p{
+    //             font-size: 35px;
+    //         }
         
-        }
-    }
+    //     }
+    // }
 
-    @media screen and (max-width:375px){
-        .contenido-header {
+    // @media screen and (max-width:375px){
+    //     .contenido-header {
             
-            .textos-header{
-                margin: 0;
-                margin-top: -50px;
-            }
-            h1{
-                font-size: 21px;   
-                margin: 0;             
-            }
+    //         .textos-header{
+    //             margin: 0;
+    //             margin-top: -50px;
+    //         }
+    //         h1{
+    //             font-size: 21px;   
+    //             margin: 0;        
 
-            p{
-                font-size: 35px;
-            }
+    //         }
+
+    //         p{
+    //             font-size: 35px;
+    //         }
         
-            &>img {
-                margin-top: -100px;
-                width: 300px;
-            }
-        }
-    }
+    //         &>img {
+    //             margin-top: -100px;
+    //             width: 300px;
+    //         }
+    //     }        
+    // }
+    // @media only screen  and (max-width:275px){
+    //     .contenido-header {
+            
+    //         .textos-header{
+    //             margin: 0;
+    //             margin-top: -50px;
+    //         }
+    //         h1{
+    //             font-size: 15px;   
+    //             margin: 0;        
+
+    //         }
+
+    //         p{
+    //             font-size: 35px;
+    //         }
+        
+    //         &>img {
+    //             margin-top: -100px;
+    //             width: 300px;
+    //         }
+    //     }
+
+        
+    // }
 
  
 
