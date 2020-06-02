@@ -1,9 +1,9 @@
-
+/*
 .servicios {
     
     background: #f2f2f2;
+    
     padding: 100px;
-
     .titulo {
         text-align: center;
         font-size: 40px;
@@ -55,3 +55,56 @@
 
 
 }
+
+@media screen and (max-width:600px) {
+
+    .servicios{
+        
+        .titulo{
+            
+        }
+
+        .contenedor-articulo{
+
+
+            .articulo{
+                
+                width: 100%;
+
+                img{
+                    width: 75px;
+                }
+            }
+        }
+
+    }
+}
+
+@media screen and (max-width:375px) {
+    
+
+    .servicios{
+        
+        
+       .titulo{           
+           margin-left: -19px;
+       }
+        .contenedor-articulo{
+            
+        
+            width: 100%;
+            .articulo{
+                
+                width: 70%;
+                padding-bottom: 0;
+
+                img{
+                    width: 85px;
+                }
+            }
+        }
+
+    }
+}
+
+*/

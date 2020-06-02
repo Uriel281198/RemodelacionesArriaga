@@ -1,4 +1,3 @@
-
 .galeria {
 
     h1 {
@@ -64,14 +63,18 @@
         }
 
     }
+}
 
-    @media screen and (max-width:1000px) {
+@media screen and (max-width:1000px) {
+    .galeria {
         .contenedor-imagenes {
             width: 95%;
         }
     }
+}
 
-    @media screen and (max-width:700px) {
+@media screen and (max-width:700px) {
+    .galeria {
         .contenedor-imagenes {
             width: 90%;
         }
@@ -81,7 +84,13 @@
         }
     }
 
-    @media screen and (max-width:450px) {
+
+}
+
+@media screen and (max-width:600px) {
+    
+    .galeria {
+        
         h1 {
             font-size: 22px;
         }
@@ -91,6 +100,7 @@
         }
 
         .contenedor-imagenes .imagen {
+            margin-bottom: 20px;
             width: 80%;
         }
     }

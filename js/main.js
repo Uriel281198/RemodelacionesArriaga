@@ -15,7 +15,7 @@ window.addEventListener("scroll", function(){
 
 // Menu
 
-let enlacesHeader = document.querySelectorAll(".enlaces-header")[0];
+let enlacesHeader = document.querySelectorAll(".enlaces")[0];
 
 console.log(enlacesHeader)
 let semaforo = true;

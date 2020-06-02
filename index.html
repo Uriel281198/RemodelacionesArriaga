@@ -17,12 +17,12 @@
 
 <body>
     <header id="index">
-        <nav>
-            <section class="contenedor nav-flex">
+        <nav class="global_Container">
+            <section >
                 <div class="logo">
                     <img src="img/logo.png" alt="">
                 </div>
-                <div class="enlaces-header">
+                <div class="enlaces">
                     <a href="#index">Inicio<span></span> <span></span></a>
                     <a href="#servicios">Servicios<span></span> <span></span></a>
                     <a href="#trabajos">Trabajos<span></span> <span></span></a>
@@ -33,19 +33,21 @@
                 </div>
             </section>
         </nav>
-        <div class="contenedor">
-            <section class="contenido-header">
-                <section class="textos-header">
-                    <h1>Construcciones y Remodelaciones.</h1>
-                    <p>Alvaro Arriaga.</p>
+        <div class="global_Container">
+            <section class="text_Container">
+                <section class="textos_Header">
+                    <h1>Construcciones   y </span>Remodelaciones</h1>
+                    <p>Alvaro Arriaga</p>
                     <a href="#">Presupeusto gratis</a>                    
                 </section>
-                <img src="img/casa.svg" alt="">
+                <!-- <img src="img/casa.svg" alt=""> -->
             </section>
         </div>
     </header>
-    <section id="servicios" class="servicios">
-        <div class="contenedo1">
+
+    <!--
+    <section id="servicios" class="servicios ">
+        
             <h2 class="titulo">Servicios</h2>
             <div class="contenedor-articulo">
                 <div class="articulo">
@@ -91,14 +93,13 @@
 
                 </div>
             </div>
-        </div>
+        
     </section>
     <section class="mensaje contenedor">
         <img src="img/cuchara.png" alt="">
         <section class="textos-questions">
             <h2>Trabajo limpio y de calidad</h1>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, dolorum.</p>
-                <a href="#">Learn more</a>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, dolorum.</p>                
         </section>
 
     </section>
@@ -173,7 +174,9 @@
                     <input class="input-style" type="email" placeholder="Email">
                     <label for="">Motivo</label>
                     <textarea class="input-style" name="mensaje" id="" placeholder="Mensaje"></textarea>
-                    <button>Enviar</button>
+                    <div class="btn-caja">
+                        <button>Enviar</button>
+                    </div>
                 </form>
 
                 <div class="mensaje">
@@ -184,11 +187,10 @@
                         necessitatibus. Cumque sit quam sed repellendus?
                     </p>
                 </div>
-
-
             </div>
         </div>
     </section>
+
 
     <footer>
         <div class="partFooter">
@@ -223,6 +225,7 @@
 
     </section>
 
+    -->
     <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
         integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
         crossorigin=""></script>
